@@ -1,0 +1,345 @@
+:root {
+    background: #FFFF;
+    margin: 1rem 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+html a {
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.navbar h1 span {
+    color: rgb(40, 182, 187);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 1.5rem;
+    font-size: 1rem;
+}
+
+.navbar ul li {
+    border-bottom: solid;
+    border-color: #FFFF;
+    cursor: pointer;
+}
+
+.navbar ul li:hover {
+    border-color: rgb(40, 182, 187);
+    transition: .8s ease;
+}
+
+.navbar ul li a {
+    color: #000;
+}
+
+.landing {
+    margin-top: 2rem;
+}
+
+.showcase .text {
+    padding: 0 3rem 0 0;
+    line-height: 1.5rem;
+}
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.showcase h3 {
+    font-size: 2.8rem;
+    font-weight: 200;
+    color: rgb(40, 182, 187);
+    padding-bottom: 1rem;
+}
+
+.showcase h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.showcase .adventure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    margin-top: 3.5rem;
+}
+
+.showcase button{
+    padding: 1rem;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgb(40, 182, 187);
+    color: #FFFF;
+    cursor: pointer;
+}
+
+.showcase button:hover {
+    transform: translateY(.5rem);
+    transition: .5s ease;
+    transform: scale(1.1);
+}
+
+.showcase img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.category {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.sect-2 .text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.sect-2 .text h3{
+    color: rgb(40, 182, 187);
+}
+
+.sect-2 .text h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.sect-2 .pics ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.sect-2 .pics ul li img {
+    height: 80vh;
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sect-2 .pics ul li img:hover {
+    transform: translateY(1rem);
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+.sect-2 .layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.category .layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.choose h3 {
+    color: rgb(40, 182, 187);
+}
+
+.choose .text h1 {
+    font-size: 2rem;
+    font-weight: 800
+}
+
+.text-icons ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.text-icons ul li {
+    padding: 2rem;
+}
+
+.text-icons ul li i {
+    font-size: 3rem;
+    color: rgb(40, 182, 187);
+}
+
+.popular {
+    margin-top: 4rem;
+}
+
+.popular .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 2rem;
+}
+
+.popular .text h3 {
+    color: rgb(40, 182, 187);
+}
+
+.popular .text h1 {
+    font-size: 2rem;
+    font-weight: 800
+}
+
+.popular-places ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.popular-places ul img {
+    height: 80vh;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.popular-places ul img:hover {
+    transform: translateY(1rem);
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+.event .programmes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(40, 182, 187);
+    margin-top: 4rem;
+}
+
+.event .promotion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(20, 72, 243);
+    color: #FFF;
+    border-radius: 2px;
+    padding: 1rem;
+}
+
+.event .promotion h1 {
+    font-size: 2rem;
+}
+
+.event .promotion button {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1.2rem 2.2rem;
+    border: transparent;
+    border-radius: 5px;
+    margin: 0 2rem 0 0;
+    cursor: pointer;
+}
+
+.event .promotion button:hover {
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+footer h3 {
+    color: rgb(40, 182, 187);
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-top: .1rem solid;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .showcase h1 {
+        line-height: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .showcase img {
+        margin-top: 4rem;
+    }
+
+    .pics ul, .text-icons ul, .popular-places ul, .promotion, footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pics ul li img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .event .promotion button {
+        margin-top: 2rem;
+    }
+}
